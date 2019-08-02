@@ -1,0 +1,26 @@
+{
+  "name": "gde",
+  "version": "0.1.0",
+  "description": "Godot Dev Environment",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funexpected/gde.git"
+  },
+  "author": "Yasha Borevich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/funexpected/gde/issues"
+  },
+  "homepage": "https://github.com/funexpected/gde#readme",
+  "dependencies": {
+    "yargs": "13.*",
+    "nodegit": "0.24.1"
+  },
+  "bin": {
+    "gde": "./main.js"
+  }
+}
